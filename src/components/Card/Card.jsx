@@ -14,7 +14,7 @@ const Card = ({id, title, tag, status}) => {
 
         </div>
         <div className="cardTitle" style={{fontWeight : 200}} >
-            <p>{title}</p>
+            <p><span>•</span> {title}</p>
         </div>
         <div className="cardTags">
         <div className="tags color-grey"> ... </div>
